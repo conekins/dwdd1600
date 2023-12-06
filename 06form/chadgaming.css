@@ -159,14 +159,25 @@ footer a:hover {
     display: block;
 }
 .order textarea {
+    color: #1a1919;
+    background-color: #fffbdb;
     width: 300px;
     height: 75px;
+}
+.order select {
+    color: #1a1919;
+    background-color: #fffbdb;
+    border: 2px solid #d1372c;
+    padding: .75rem;
+    font-weight: 700;
 }
 .order [type=text], [type=tel], [type=email] {
     color: #1a1919;
     background-color: #fffbdb;
     border: 1.75px solid #1a1919;
     border-radius: 5px;
+    margin-bottom: .5rem;
+    display: block;
 }
 .order [type=submit] {
     background-color: #d1372c;
