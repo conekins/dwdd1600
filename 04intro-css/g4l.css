@@ -1,0 +1,154 @@
+/* This is for the baseline CSS */
+
+body {
+  font-family: "Roboto Serif", serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* This is for the header */
+
+header {
+    background-color: #00152a;
+    padding: 1.5rem 3vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+header p {
+    letter-spacing: .15rem;
+    margin: 0;
+    color: #0091ff;
+}
+
+/* This is for the nav bar */
+
+nav {
+    background-color: #00080f;
+}
+
+nav ul {
+    display: flex;
+    padding: 0 3vw;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: #0091ff;
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    transition: .5s;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #00152a;
+}
+
+.active a{
+    background-color: #00152a;
+    color: #0091ff;
+}
+
+/* This is stuff that styles the main tag */
+
+main {
+    background-color: #1a1a1a;
+    padding: 1.5rem 3vw;
+}
+
+main h1 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+main h2 {
+    color: #fff;
+    margin: 3rem 0 1.25rem 0;
+}
+
+main p {
+    color: #ffffff;
+}
+
+main ul {
+    color: #ffffff;
+    list-style-type: none;
+}
+main ul li::before {
+    content: "►";
+    margin-right: .5rem;
+}
+
+main ol {
+    padding: 2.5rem;
+    background-color: #001b30;
+    color: #ffffff;
+    border: 2px solid #fff;
+}
+main li {
+    padding: .25rem;
+}
+
+main dl {
+    padding: .5rem;
+    background-color: #fff;
+    border: 2px solid #0091ff;
+}
+
+main dl dt {
+    color: #00152a;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+main dl dd {
+    padding-bottom: .5rem;
+    color: #002e52;
+    font-weight: 500;
+}
+
+main address {
+    font-weight: 500;
+    background-color: #41adff;
+    color: #00152a;
+    padding: .75rem;
+    width: 21rem;
+    border-radius: 10px;
+}
+
+main a {
+    color: #0091ff;
+    transition: .5s;
+}
+
+main a:hover {
+    color: #6fc1ff;
+}
+
+/* Stuff for the footer goes here */
+
+footer {
+    text-align: center;
+    background-color: #00080f;
+    color: #ffffff;
+    padding: .75rem 0;
+    font-size: .9rem;
+}
+
+footer a {
+    color: #0091ff;
+    transition: .5s;
+}
+
+footer a:hover {
+    color: #6fc1ff;
+}
