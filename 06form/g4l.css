@@ -1,0 +1,245 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Header code here */
+
+header {
+    background-color: #b80000;
+    padding: 1rem 3%;
+}
+
+header h1 {
+    color: #f8edac;
+    margin: 0;
+}
+
+header p {
+    color: #f8edac;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+/* Nav stuff goes here */
+
+nav {
+    background-color: #f8edac;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 3%;
+    display: flex;
+}
+
+nav a {
+    color: #b80000;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    padding: 1.1rem 2rem;
+    transition: .5s;
+}
+nav a:hover {
+    background-color: #d3c994;
+    color: #770000;
+}
+
+.active a {
+    background-color: #b80000;
+    color: #f8edac;
+}
+.active a:hover {
+    background-color: #770000;
+    color: #d3c994;
+}
+
+/* Main stuff goes here */
+
+main {
+    background: #1e1e1e;
+    padding: .25rem 3%;
+}
+
+main h1 {
+    color: #f8edac;
+}
+
+main h2 {
+    color: #ff5b5b;
+    margin-bottom: .25rem;
+}
+
+main p {
+    color: #fff;
+    margin-top: 0;
+}
+
+main p a {
+    color: #b80000;
+    transition: .5s;
+}
+main p a:hover {
+    color: #ff3b3b;
+}
+
+main dt {
+    color: #ff5b5b;
+    font-weight: 700;
+}
+
+main dd {
+    color: #fff;
+}
+
+main ol {
+    background-color: #f8edac;
+    padding: 2rem;
+    border: 2px solid #b80000;
+    width: 10.7rem;
+    margin-top: 0;
+}
+
+main ol a {
+    color: #b80000;
+    transition: .5s;
+}
+ol a:hover {
+    color: #ff3b3b;
+}
+
+main ul {
+    list-style-type: square;
+    background-color: #ff5b5b;
+    padding: 2rem;
+    margin-bottom: 0;
+    border: 2px solid #f8edac;
+}
+
+main address {
+    background-color: #f8edac;
+    color: #1e1e1e;
+    font-weight: 700;
+    padding: .75rem;
+    font-style: normal;
+    border: 2px solid #b80000;
+    margin-bottom: 2rem;
+}
+
+div.topBtnContainer {
+    margin: 2.5rem 0;
+}
+a.topButton {
+    background-color: #f8edac;
+    padding: .5rem;
+    border: 2px solid #b80000;
+    border-radius: 5px;
+    color: #b80000;
+    font-weight: 700;
+    transition: .5s;
+}
+a.topButton:hover {
+    background-color: #d3c994;
+    color: #770000;
+}
+
+figure.hero {
+    width: 30%;
+    margin: 0 0 2rem 3%;
+    float: right;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+figure.hero figcaption {
+    color: #b80000;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop figure {
+    margin: 1.5rem 3% 1rem 0;
+}
+.shop figcaption {
+    text-align: center;
+    color: #fff;
+    font-size: .8rem;
+}
+
+.order fieldset {
+    border: 2px solid #f8edac;
+    border-radius: 3px;
+    margin-bottom: 1.5rem;
+}
+.order legend {
+    color: #ff3b3b;
+}
+.order label, label[for="fn"], label[for="ln"], label[for="pn"], label[for="em"], label[for="country"] {
+    color: #f8edac;
+    display: block;
+}
+label[for="fn"], label[for="ln"], label[for="pn"] {
+    color: #ff3b3b;
+}
+label[for="fn"], label[for="ln"], label[for="pn"], label[for="em"], label[for="country"] {
+    padding: 1rem 0 0.25rem 0;
+}
+.order [type=check], .order [type=radio] {
+    padding: 1rem;
+}
+.order select, .order textarea, .order [type=text], .order [type=tel], .order [type=email] {
+    border: 2px solid #f8edac;
+    padding: 0.2rem;
+    border-radius: 2.5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 12rem;
+    display: block;
+}
+.order textarea {
+    height: 9rem;
+    width: 14.25rem;
+}
+.order [type=submit] {
+    margin: 1rem 0;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    background-color: #f8edac;
+    color: #1e1e1e;
+    border: 2px solid #b80000;
+    border-radius: 0.75rem;
+}
+
+
+
+/* Footer stuff goes here */
+
+footer {
+    background-color: #b80000;
+    text-align: center;
+    color: #f8edac;
+    padding: .75rem 0 .75rem 0;
+    clear: both;
+}
+
+footer a {
+    color: #f8edac;
+    transition: .5s;
+}
+footer a:hover {
+    color: #d3c994;
+}
